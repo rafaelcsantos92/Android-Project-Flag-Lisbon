@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IMDb</string>
+    <string name="language_value">pt</string>
+    <string name="first_screen">First Screen</string>
+    <string name="net_activity">Internet Ligada</string>
+    <string name="imdb_av">Avaliação IMDb:</string>
+    <string name="share_one">O filme  </string>
+    <string name="share_one_serie">A Série </string>
+    <string name="share_two">  tem a classificação de </string>
+    <string name="share_three"> estrelas.</string>
+    <string name="first_login">Bem Vindo!</string>
+    <string name="first_login_info">Bem-Vindo à IMDb App!</string>
+    <string name="first_login_info_app">O IMDb é uma App onde podes ver os Filmes ou Séries em exibição.</string>
+    <string name="first_login_avance">Avançar</string>
+    <string name="mais_info">+ Mais </string>
+    <string name="movie_main_name">Filmes</string>
+    <string name="series_main_name">Series</string>
+    <string name="imdb_main_name">IMDb</string>
+    <string name="splash_name">Trabalho de Rafael Santos</string>
+    <string name="no_internet">Por Favor Ligue a Internet e Tente Novamente.</string>
+
+
+</resources>

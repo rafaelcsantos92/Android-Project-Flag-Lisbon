@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:background="@drawable/cinema">
+        <TextView
+            android:id="@+id/main_screen_text_view_logo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:text="@string/imdb_main_name"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:background="#d9a729"
+            android:textStyle="bold"
+            android:fontFamily="Arial"/>
+
+        <Button
+            android:id="@+id/main_screen_movies_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="45"
+            android:background="#00000000"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:text="@string/movie_main_name"
+            android:textColor="#d9a729"
+            android:textSize="50dp"
+            android:layout_below="@+id/main_screen_text_view_logo"
+/>
+        <Button
+            android:id="@+id/main_screen_series_button"
+            android:layout_below="@+id/main_screen_movies_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="45"
+            android:background="#00000000"
+            android:clickable="true"
+            android:text="@string/series_main_name"
+            android:textColor="#d9a729"
+            android:textStyle="bold"
+            android:textSize="50dp" />
+</LinearLayout>

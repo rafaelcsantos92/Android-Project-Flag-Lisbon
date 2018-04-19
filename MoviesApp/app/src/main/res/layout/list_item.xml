@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:clickable="true">
+
+    <ImageView
+        android:id="@+id/list_item_img"
+        android:layout_width="65dp"
+        android:layout_height="85dp"/>
+
+    <TextView
+        android:id="@+id/list_item_label"
+        android:layout_toRightOf="@+id/list_item_img"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#0a0909"
+        android:padding="6dp"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="Titulo"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/list_item_rating_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@id/list_item_label"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:text="@string/imdb_av"
+        android:layout_toRightOf="@+id/list_item_img" />
+
+    <RatingBar
+        android:id="@+id/list_item_stars"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_alignTop="@+id/list_item_rating_text"
+        android:layout_toEndOf="@+id/list_item_rating_text"
+        android:numStars="10" />
+
+    <TextView
+        android:id="@+id/list_item_stars_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_below="@id/list_item_label"
+        android:layout_toEndOf="@+id/list_item_stars"
+        android:text="10.0"
+        android:textColor="#000"
+        android:textSize="12sp"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMDb</string>
+    <string name="language_value">en</string>
+    <string name="first_screen">First Screen</string>
+    <string name="net_activity">Internet ON</string>
+    <string name="imdb_av">IMDb Rating:</string>
+    <string name="share_one">The Movie  </string>
+    <string name="share_two">  has a classification of  </string>
+    <string name="share_three">  stars.</string>
+    <string name="first_login">Welcom!</string>
+    <string name="first_login_info">Welcom to IMDb App!</string>
+    <string name="first_login_info_app">IMDb is an App where you can watch Movies or Series on exhibition.</string>
+    <string name="first_login_avance">Go to App</string>
+    <string name="mais_info">+ More </string>
+    <string name="movie_main_name">Movies</string>
+    <string name="series_main_name">TV Series</string>
+    <string name="imdb_main_name">IMDb</string>
+    <string name="splash_name">Project By: Rafael Santos</string>
+    <string name="no_internet">Please connect to the internet and try again.</string>
+
+</resources>

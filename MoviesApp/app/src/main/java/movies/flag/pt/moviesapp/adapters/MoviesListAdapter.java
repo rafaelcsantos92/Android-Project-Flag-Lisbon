@@ -98,10 +98,10 @@ public class MoviesListAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(), MovieDetailsScreen.class);
-                intent.putExtra("TITULO",title);
-                intent.putExtra("STARS",ratingStars);
-                intent.putExtra("DESCRIPTION",movieDescription);
-                intent.putExtra("DATA", movieData);
+                intent.putExtra("TITULO:",title);
+                intent.putExtra("STARS:",ratingStars);
+                intent.putExtra("DESCRIPTIONS",movieDescription);
+                intent.putExtra("DATA:", movieData);
                 intent.putExtra("IMG", img);
                 context.startActivity(intent);
             }
